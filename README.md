@@ -15,22 +15,19 @@
 # Svårare uppgifter:
 1. Förklara resultatet av följande kod:
 
-'''
-var fullname = 'Java Script';
-var obj = {
-   fullname: 'Ruby Mine',
-   prop: {
-      fullname: 'Web Storm',
-      getFullname: function() {
-         return this.fullname;
+   var fullname = 'Java Script';
+   var obj = {
+      fullname: 'Ruby Mine',
+      prop: {
+         fullname: 'Web Storm',
+         getFullname: function() {
+            return this.fullname;
+         }
       }
-   }
-};
+   };
 
-console.log(obj.prop.getFullname());
+   console.log(obj.prop.getFullname());
 
-var test = obj.prop.getFullname;
+   var test = obj.prop.getFullname;
 
-console.log(test());
-'''
-
+   console.log(test());
