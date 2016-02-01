@@ -14,7 +14,7 @@
 
 # Svårare uppgifter:
 1. Förklara resultatet av följande kod:
-
+```javascript
    var fullname = 'Java Script';
    var obj = {
       fullname: 'Ruby Mine',
@@ -31,3 +31,4 @@
    var test = obj.prop.getFullname;
 
    console.log(test());
+```
